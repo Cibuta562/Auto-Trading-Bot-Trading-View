@@ -10,7 +10,9 @@ def nu_sex():
 @app.route('/auto_trade' , methods= ['POST'])
 def auto_trade():
     print(request)
-    return {"code": "success" }
+    return {"code": "success",
+            "message": str(request.data)
+            }
 
 if __name__ == '__main__':
     app.run()
