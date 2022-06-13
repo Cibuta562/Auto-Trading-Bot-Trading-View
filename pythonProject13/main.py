@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def nu_sex():
-    return "Nu sex!"
+    return "Merge !! "
 
 @app.route('/auto_trade' , methods= ['POST'])
 def auto_trade():
