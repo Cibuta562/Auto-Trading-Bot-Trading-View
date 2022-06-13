@@ -65,6 +65,7 @@ def auto_trade():
             "message": "Order has not been executed :("
         }
 
+##########just to start the app###########
 
 if __name__ == '__main__':
     app.run()
