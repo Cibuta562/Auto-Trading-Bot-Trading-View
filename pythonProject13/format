@@ -1,0 +1,25 @@
+{
+    "passphrase": "key",
+    "time" : "2022-06-13T14:35:47Z",
+    "exchange": "BINANCE",
+    "ticker": "SOLUSDT",
+    "bar": {
+        "time": "2022-06-13T14:35:47Z",
+        "open": 23,
+        "high": 23,
+        "low": 23,
+        "close": 23,
+        "volume": 150000
+    },
+    "strategy": {
+        "position_size": 10000,
+        "order_action": "buy",
+        "order_contracts": 10000,
+        "order_price": 23,
+        "order_id": "Solana",
+        "market_position": "long",
+        "market_position_size": 10000,
+        "prev_market_position": "flat",
+        "prev_market_position_size": 0
+    }
+}

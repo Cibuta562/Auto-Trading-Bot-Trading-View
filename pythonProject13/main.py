@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, jsonify
 import json
 
 app = Flask(__name__)
@@ -11,7 +11,7 @@ def nu_sex():
 @app.route('/auto_trade' , methods= ['POST'])
 def auto_trade():
     data = json.loads(request.data)
-    print(data[''])
+    print(request)
 
     return {"code": "success",
             "message": data
